@@ -1,0 +1,41 @@
+/* Erstelle 4 SuperBalls um die Hintergrundfarbe und Farbe vom <body>+<h1> zu ändern. 
+Nutzt CSS um die Elemente zu stylen. (Tipp: linear-gradient)
+Nun schreibe in JS jeweils eine eigene Funktion für die Elemente.
+Wenn der Benutzer auf die SuperBalls klickt, wird die “background-color” vom body und die “Color” von H1 geändert. */
+
+h1 {
+    text-align: center;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+    padding: 5% 0;
+    margin: 2%;
+    text-align: center;
+    display: inline-block;
+    transform: rotate(0.60turn);
+}
+
+button:hover {
+    box-shadow: 5px -12px 15px 5px black;
+}
+
+#kreis1 {
+    background: linear-gradient(rgb(2, 133, 2) 50%, purple 50%);
+    ;
+}
+
+#kreis2 {
+    background: linear-gradient( rgb(88, 37, 182)50%, orange 50%);
+}
+
+#kreis3 {
+    background: linear-gradient( black 50%, rgb(247, 100, 3)50%);
+}
+
+#kreis4 {
+    background: linear-gradient(rgb(1, 1, 73)50%, rgb(0, 47, 255)50%);
+}
