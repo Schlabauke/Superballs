@@ -4,12 +4,10 @@ function kreis1() {
     h1.style.color = "purple";
 }
 
-
 function kreis2() {
     body.style.background = "rgb(88, 37, 182)";
     h1.style.color = "orange";
 }
-
 
 function kreis3() {
     body.style.background = "black";
